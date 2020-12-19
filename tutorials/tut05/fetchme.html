@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<div id="dogname"></div>
+		<script type="text/javascript">
+		const data = fetch('http://www.cse.unsw.edu.au/~cs6080/20T3/data/doggo.txt');
+		
+		data
+			.then(data => data.text())
+			.then(data => document.getElementById('dogname').innerText = data)
+			.catch();
+		</script>
+	</body>
+</html>

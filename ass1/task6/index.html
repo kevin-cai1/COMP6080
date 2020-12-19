@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td>
+                <input class="text-input" id="f-name" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td>
+                <input class="text-input" id="l-name" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>Date of birth</td>
+            <td>
+                <input class="text-input" id="birth" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>Favourite animal</td>
+            <td>
+                <select name="animal" id="animal">
+                    <option value="Dog">Dog</option>
+                    <option value="Puppy">Puppy</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Cities lived in</td>
+            <td>
+                <input class="checkbox" type="checkbox" id="city1" value="Sydney">
+                <label for="city1">Sydney</label><br>
+                <input class="checkbox" type="checkbox" id="city2" value="Melbourne">
+                <label for="city2">Melbourne</label><br>
+                <input class="checkbox" type="checkbox" id="city3" value="Adelaide">
+                <label for="city3">Adelaide</label><br>
+            </td>
+        </tr>
+    </table>
+    <button id="remove">Remove</button>
+    <br>
+    <textarea id="summary"></textarea>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

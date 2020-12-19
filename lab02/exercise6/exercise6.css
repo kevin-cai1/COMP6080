@@ -1,0 +1,98 @@
+body {
+    width: 1896px;
+    height: 870px;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.container {
+
+}
+
+.image-section {
+    background-image: url("./assets/exercise_2_landing_page.jpg");
+    background-size: cover;
+    height: 670px;
+    width: 100%;
+}
+
+.image-text {
+    margin-left: 272px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 88px;
+    margin: 0;
+    line-height: 86px;
+}
+
+.heading {
+    width: 500px;
+    margin-top: 55px;
+    display: inline-block
+}
+
+.button {
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: rgb(251, 211, 1);
+    border-radius: 60px;
+    height: 60px;
+    width: 314px;
+    font-size: 26px;
+}
+
+.security-icon {
+    width: 32px;
+    height: 38px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+p {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0;
+}
+
+.footer {
+    background-color: rgb(251, 211, 1);
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.footer-text {
+    margin-left: 305px;
+    position: absolute;
+    top: 50%;
+    margin: 0;
+    transform: translateY(-50%);
+    margin-left: 305px;
+}
+
+.fee-text {
+    display: inline-block;
+}
+
+h2 {
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-size:70px;
+    font-weight: 800;
+}
+
+.sub-text {
+    font-size: 20px;
+}
+
+.footer-description {
+    display: inline-block;
+    margin-left: 75px;
+    font-size: 28px;
+}

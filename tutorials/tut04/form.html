@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Form</title>
+    </head>
+    <body>
+        <form action="" method="get">
+            <p><label for="inputEmail">Email: </label><input id="inputEmail" type="email"/></p>
+            <p><label for="inputName">Name: </label><input id="inputName" type="text"/></p>
+            <input type="submit" id="submitForm" disabled/>
+            <!-- More here -->
+        </form>
+        <script type="text/javascript">
+            const inputName = document.getElementById('inputName');
+            const inputEmail = document.getElementById('inputEmail');
+
+            const inputNameValid = () => {
+                return true;
+            }
+            const inputEmailValid = () => {
+                return true;
+            }
+            const checkValidInputs = () => {
+                if (inputNameValid() && inputEmailValid()) {
+                    document.getElementById('submitForm').removeAttribute('disabled');
+                }
+            };
+            inputName.addEventListener('keyup', checkValidInputs);
+            inputEmail.addEventListener('keyup', checkValidInputs);
+            /* More here */
+        </script>
+    </body>
+</html>

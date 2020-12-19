@@ -1,0 +1,37 @@
+.previewImg {
+    width: 60vw;
+}
+
+.input-field {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.button-group {
+    display: inline-flex;
+}
+
+.options-field {
+    width: 90%;
+}
+
+.question-form {
+    width: 60vw;
+}
+
+.answer-field {
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    .answer-field {
+        display: inline-flex;
+    }
+    .question-form {
+        width: 90vw;
+    }
+
+    .previewImg {
+        width: 90vw;
+    }
+}

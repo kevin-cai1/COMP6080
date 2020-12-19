@@ -1,0 +1,89 @@
+body {
+    width: 475px;
+    height: 1953px;
+    font-family: sans-serif;
+}
+
+.window {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.card {
+    background-color: rgb(242, 242, 242);
+    margin-bottom: 32px;
+    position: relative;
+    width: 443px;
+    height: auto;
+}
+
+.img-card {
+    margin-bottom: 0px;
+    background-color: rgb(242, 242, 242);
+    height: 288px;
+}
+
+.card-contents {
+    margin-left: 32px;
+    margin-right: 32px;
+    display: inline-block;
+}
+.card-heading {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+h1 {
+    font-family: sans-serif;
+    font-weight: 780;
+    font-size: 28px;
+    color: rgb(51, 51, 51);
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.staff-card {
+    margin-left: 16px;
+    margin-top: -32px;
+    margin-bottom: 147px;
+    height: 330px;
+    background-color: rgb(242, 242, 242);
+    position: relative;
+    z-index: 1;
+}
+
+.heading {
+    margin-bottom: 40px;
+}
+
+p {
+    line-height: 25px;
+    margin: 0;
+}
+
+.learn-more {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 18px;
+    font-family: Helvetica;
+    color: rgb(51, 51, 51);
+}
+
+.quote {
+    margin-top: 30px;
+    margin-bottom: 56px;
+    margin-right: 32px;
+    text-align: right;
+}

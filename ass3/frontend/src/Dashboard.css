@@ -1,0 +1,78 @@
+.card {
+    margin: 20px;
+    min-width: 250px;
+    height: auto;
+    cursor: pointer;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row-wrap;
+    width: 75vw;
+}
+
+.card-image {
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-body {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.card-chip {
+    margin: 0 20px 1% 20px;
+}
+
+.card-answers-label {
+    font-weight: 500;
+    margin: 3% 0 1% 2%;
+    font-size: 105%;
+}
+
+.card-answer-container {
+    background-color: #fff0f6;
+}
+
+.active-status {
+    background-color: red;
+    color: red;
+}
+
+.card-image {
+    object-fit: cover;
+}
+
+.dashboard-heading {
+    display: flex wrap;
+}
+
+.button-group {
+    display: inline-flex;
+    height: 80%;
+    margin-top: 0.67em;
+}
+
+.dashboard-button {
+    margin-right: 10px;
+}
+
+.heading {
+    margin: 0;
+    flex: 1;
+}
+
+h1 {
+    margin: 0;
+}
+
+.graph-container {
+    margin: 0 20%;
+}
+
+@media screen and (max-width: 1000px) {
+    .graph-container {
+        margin: 0;
+    }
+}

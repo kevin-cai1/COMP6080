@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Page</title>
+    </head>
+    <body id="body">
+        <header>
+            <a id="navHome" href="#">Home |</a>
+            <a id="navAbout" href="#">About |</a> 
+            <a id="navNews" href="#"> News |</a> 
+            <a id="navArticles" href="#">Articles</a>
+        </header>
+        <div id="main">
+            <div id="pageHome">This is the home page!</div>
+            <div id="pageAbout" class="hide">This is the about page!</div>
+            <div id="pageNews" class="hide">This is the news page!</div>
+            <div id="pageArticles" class="hide">This is the articles page!</div>
+        </div>
+        <div id="popup" class="hide">
+            Email: <input type="text"/><br/>
+            Name: <input type="text"/><br/>
+            <button id="closePopup">Close</button><input type="submit"/>
+        </div>
+        <footer><a id="contactUs" href="#">Contact Us</a>></footer>
+        <script type="text/javascript">
+            const hide = element_id => document.getElementById(element_id).style.display = 'none';
+            const show = element_id => document.getElementById(element_id).style.display = 'block';
+
+            const pageItems = [ 'Home', 'About', 'News', 'Articles' ];
+            pageItems.map(item => {
+                document.getElementById(`nav${item}`).addEventListener('click', e => {
+                    pageItems.map(item2 => hide(`page${item}`));
+                    show(`page${item}`);
+                })
+            })
+
+            document.getElementById('contactUs').addEventListener('click', e => {
+                document.getElementById('popup').style.display = 'block';
+                document.getElementById('main').style.display = 'none';
+                const header = document.getElementsByTagName('header')[0];
+                if (header) {
+                    header.style.display = 'none';
+                }
+
+                const footer = document.getElementsByTagName('footer')[0];
+                if (footer) {
+                    footer.style.display = 'none';
+                }
+            })
+        </script>
+    </body>
+</html>

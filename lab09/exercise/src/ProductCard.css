@@ -1,0 +1,86 @@
+.card {
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+    display: flex;
+    width: 1000px;
+    height: auto;
+}
+
+.card-media {
+    flex: 1;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.text {
+    margin: 0 10%;
+    margin-bottom: 10%;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+}
+
+.card-title {
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+.card-subtitle {
+    font-size: 20px;
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.card-actions {
+    display: inline-flex;
+}
+
+.recommendations {
+    margin-top: 50px;
+}
+
+button {
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 15px 10px;
+    cursor: pointer;
+}
+
+.minus-modifier {
+    background-color: #ffffff;
+    font-size: 24px;
+    margin: 5px 5px;
+}
+
+.plus-modifier {
+    background-color: #ffffff;
+    font-size: 24px;
+    margin: 5px 5px;
+}
+
+.items-label {
+    font-size: 20px;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    border: 1px solid #acabab;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.filled {
+    background-color: #ffda06;
+}
+
+p {
+    font-size: 16px;
+}

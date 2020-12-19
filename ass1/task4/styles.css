@@ -1,0 +1,149 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.window {
+    width: 1283px;
+    height: 699px;
+    background-color: #f0efee;
+}
+
+.card-grid {
+    display: flex;
+    height: 442px;
+    background-color: #f0efee;
+    margin-left: 72px; 
+    margin-right: 72px
+}
+
+.card {
+    flex: 1;
+    background-color: #ffffff;
+    margin: 11px;
+    border-radius: 3px;
+}
+
+.heading-container {
+    margin-left: 70px;
+    margin-top: 45px;
+    display: inline-block
+}
+
+.heading {
+    width: 90%;
+}
+
+.line {
+    border-bottom: 2px solid;
+    width: 31px;
+    margin: 20px 0px 20px 0px;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 100;
+    letter-spacing: -0.05em;
+    font-size: 32px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card-header {
+    margin-left: 20px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    color: #008228;
+}
+
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 20px
+}
+
+.card-title {
+    display: inline-block;
+}
+
+hr.card-divider { 
+    width: 99%;
+    margin: 0px;
+    margin: auto;
+    border: none;
+    height: 12px;
+    box-shadow: inset 0 12px 12px -12px rgba(78, 78, 78, 0.5);
+}
+
+.card-description {
+    height: 176px;
+    text-align: center;
+    margin: 24px 36px 0px 36px;
+}
+
+.button-container {
+    height: 72px;
+    text-align: center;
+}
+
+button.more {
+    background-color: #008228;
+    padding-left: 11px;
+    text-align: left;
+    border: none;
+    color: white;
+    width: 190px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.spacing {
+    display: none;
+}
+
+.more:hover .spacing {
+    display: inline;
+}
+
+.more:hover{
+    background-color: #1e1e1e;
+}
+
+.footnote {
+    height: 75px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+p {
+    margin: 0;
+    font-size: 11px;
+    color: #88888f;
+}
+
+.rate-container {
+    height: 85px;
+    font-size: 18px;
+    color: black;
+}
+
+.rate {
+    font-size: 28px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    color: black;
+    margin-top: 12px;
+}

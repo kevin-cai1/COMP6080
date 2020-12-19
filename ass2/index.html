@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quickpic</title>
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0 ,initial-scale=1.0">
+    <!-- You can add your styles and scripts here -->
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/provided.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script type="module" src="src/helpers.js"></script>
+    <script type="module" src="src/api.js"></script>
+</head>
+<body>
+    <!-- This is an example app structure, you can modify this as much as you choose --> 
+    <header class="banner">
+        <h1 id="home">Quickpic</h1>
+        <ul class="nav">
+            <li class="nav-item">
+                <div class="search-container">
+                    <input id="search-user" class="search-user" type="text" placeholder="username"/>
+                    <i id="search-userBtn" class="material-icons search-userBtn" alt="Follow user">person_add</i>
+                </div>
+            </li>
+            <li class="nav-item" id="new-post">New Post</li>
+            <li class="nav-item" id='profile'>Profile</li>
+            <li class="nav-item" id="logout">Logout</li>
+        </ul>
+    </header>
+    <main id="main" role="main">
+        <!-- app goes here -->
+        <div class='post post-body'>No posts. Follow users to see posts</div>
+    </main>
+    <div class="modal" id="post-modal">
+        <div class="modal-content">
+            <i id="close-post-form" class="material-icons close-modal">clear</i>
+            <div class="form-container" id="post-form">
+                <h3>New Post</h3>
+                <input type="file" accept="image/*" id="input-image" name="file"/>
+                <div id="post-preview"></div>
+                <input type="text" id="input-desc" name="description" placeholder="description"/>
+                <button id="form-submit">Post</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Quickpic</p>
+    </footer>
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>

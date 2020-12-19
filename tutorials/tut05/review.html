@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Page</title>
+  </head>
+  <body id="body">
+    <!-- Do not write HTML here -->
+    <script type="text/javascript">
+      const data = [{name: "Sarah", age: "22", height: "188"}, 
+                    {name: "Lin", age: "42", height: "134"},
+                    {name: "Samir", age: "21", height: "155"},
+                    {name: "Wayne", age: "29", height: "162"},
+                    {name: "Eckhart", age: "112", height: "144"},
+                  ];
+
+      const body = document.getElementById('body');
+
+      const div = document.createElement('div');
+      div.style.background = '#cccccc';
+
+      const table = document.createElement('table');
+
+      const createRow = (col1, col2, col3, header = false) => {
+        const thtd = header ? 'th' : 'td';
+        const secondRow = document.createElement('tr');
+        const sarah = document.createElement(thtd);
+        const sarahText = document.createTextNode(col1);
+        sarah.appendChild(sarahText);
+        const twentyTwo = document.createElement(thtd);
+        const twentyTwoText = document.createTextNode(col2);
+        twentyTwo.appendChild(twentyTwoText);
+        const hundred = document.createElement(thtd);
+        const hundredText = document.createTextNode(col3);
+        hundred.appendChild(hundredText);
+        secondRow.appendChild(sarah);
+        secondRow.appendChild(twentyTwo);
+        secondRow.appendChild(hundred);
+        table.appendChild(secondRow);
+      };
+
+      // First row
+      createRow('Name', 'Age', 'Height', true);
+
+      data.map(d => createRow(d['name'], d['age'], d['height']));
+
+      div.appendChild(table)
+      body.appendChild(div);
+
+    </script>
+  </body>
+</html>

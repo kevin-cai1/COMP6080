@@ -1,0 +1,149 @@
+body {
+    width: 1907px;
+    height: 937px;
+    background-color: #f4f2ef;
+    font-family: sans-serif;
+}
+
+.info-box {
+    display: flex;
+    height: 850px;
+    width: 100%;
+    background-color: #e86b01;
+}
+
+.nav-bar {
+    height: 85px;
+    justify-content: right;
+    position: relative;
+}
+
+.headline-container {
+    flex: 7;
+    background-color: #e86b01;
+}
+
+.fact-container {
+    flex: 5;
+    background-color:  #e86b01;
+    display: flex;
+    flex-direction: column;
+}
+
+.area-stat {
+    flex: 17;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    background-color: #f4f2ef;
+    display: flex;
+}
+
+.coffee-stat {
+    flex: 10;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: #f4f2ef;
+    display: flex;
+}
+
+.cup-stat {
+    flex: 10;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: #f4f2ef;
+    display: flex;
+}
+
+.bottom-padding {
+    flex: 1;
+    margin-top: 1px;
+    background-color: #f4f2ef;
+}
+
+.fact-text {
+    margin-left: 50px;
+    color: #e86b01;
+    flex: 5;
+}
+
+.fact-column {
+    text-align: right;
+    margin-right: 36px;
+    justify-content: right;
+    position: relative;
+    flex: 2;
+}
+
+.headline {
+    margin-left: 42px;
+    margin-right: 120px;
+    margin-top: 160px;
+    align-content: center;
+    text-align: center;
+}
+
+.headline-tabs {
+    margin-left: 42px;
+    margin-top: 110px;
+    font-size: 21px;
+    letter-spacing: 24px;
+}
+
+h1 {
+    margin: 0px;
+    color: #FFFFFF;
+    font-size: 110px;
+
+}
+
+h3 {
+    font-size: 42px;
+    margin-bottom: 62px;
+    margin-top: 60px;
+}
+
+h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #da8423;
+    margin: 0;
+    margin-top: 28px; 
+}
+
+h5 {
+    position: absolute;
+    bottom: 25px;
+    font-size: 32px;
+    color: #da8423;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 120px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.unit {
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.white-square {
+    color: #FFFFFF;
+}
+
+.icon-line {
+    border: 1px solid #da8423;
+}
+
+.icon {
+    top: 22px;
+    width: 45px;
+    height: 24px;
+    position: absolute;
+    right: 42px;
+}

@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main {
+  min-height: 80vh;
+  padding: 3%;
+}
+
+.footer {
+  text-align: center;
+  border-top: 1px solid #afafaf;
+}
+
+.Main-content, .App-form {
+  display: flex;
+  justify-content: center;
+}
+
+.form-title {
+  font-weight: 500;
+}
+
+.App-form {
+  flex-direction: column;
+}
+
+.q-card-answer-option {
+  margin: 0 5%;
+}
+
+.q-card-image-default {
+  max-width: 425px;
+}
+
+.q-card-image {
+  max-width: 250px;
+}
+
+.new-q-option {
+  margin-bottom: 2%;
+}
+
+.question-loading {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.loading-text {
+  font-weight: 500;
+  color: rgb(128, 10, 57);
+  text-shadow: #c99bb3 3px 3px 8px;
+}
+
+.option-heading {
+  font-weight: 400;
+  text-decoration: underline;
+  font-style: italic;
+  color: #756b72;
+}
+
+.game-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.results-heading {
+  text-align: center;
+  font-weight: 400;
+  color: #3a3131;
+  margin: 16px 0 25px 0;
+}
+
+.question-heading {
+  font-weight: 500;
+  color: #800A39;
+  margin: 6% 0 6% 9%;
+  font-size: 1.3rem;
+}
+
+.result-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.result-subtext {
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin: 5% 0 5% 0;
+}
+
+.thumbnail-preview {
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

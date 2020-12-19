@@ -1,0 +1,12 @@
+table, th, td {
+    border: 1px solid black;
+}
+textarea {
+    width: 500px;
+    height: 200px;
+}
+  
+#remove {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

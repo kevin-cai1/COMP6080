@@ -1,0 +1,10 @@
+{
+	"URL": "http://localhost",
+	"BACKEND_PORT": 5005,
+	"LOGIN_API": "/admin/auth/login",
+	"REGISTER_API": "/admin/auth/register",
+	"LOGOUT_API": "/admin/auth/logout",
+	"QUIZ_API": "/admin/quiz",
+	"SESSION_API": "/admin/session",
+	"PLAY_API": "/play"
+}

@@ -1,0 +1,135 @@
+body {
+    font-family: Georgia;
+    width: 1896px;
+    height: 1073px; 
+    overflow: hidden;
+}
+
+.window {
+    width: 1896px;
+    height: 1073px;
+    text-align: center;
+    align-content: center;
+}
+
+.info {
+    width: 66%;
+    margin-left: 17%;
+    align-content: center;
+}
+
+h1 {
+    color: #313131;
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2 {
+    color: #888888;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 8px;
+    letter-spacing: 0.01em;
+}
+
+p {
+    line-height: 32px;
+    color: #7c7c7c;
+}
+
+.socials {
+    display: flex;
+    width: 14%;
+    margin-left: 43%;
+}
+
+.facebook {
+    flex: 1;
+}
+
+.pinterest {
+    flex: 1;
+}
+
+.twitter {
+    flex: 1;
+}
+
+.social-images {
+    width: 68%;
+}
+
+.image-grid {
+    margin-left: 11%;
+    display: flex;
+    width: 78%;
+    height: 65%;
+}
+
+.column1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.column1-row1 {
+    flex: 1;
+}
+
+.column1-row2 {
+    flex: 2;
+}
+
+.column2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+}
+
+.column2-row1 {
+    flex: 4;
+}
+
+.column2-row2 {
+    flex: 1;
+}
+
+.column3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.column3-row1 {
+    flex: 4;
+}
+
+.column3-row2 {
+    flex: 1;
+}
+
+.column4 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.column4-row1 {
+    flex: 4;
+}
+
+.column4-row2 {
+    flex: 4;
+}
+
+.column4-row3 {
+    flex: 3;
+}
+
+.grid {
+    width: 98%;
+    height: 98%;
+}

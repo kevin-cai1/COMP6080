@@ -1,0 +1,125 @@
+body {
+    color: #faf8ef;
+    width: 787px;
+    height: 786px;
+    margin: 0;
+    font-family: Arial; 
+    position: fixed;
+}
+
+.outer-container {
+    background-color: #faf8ef;
+    width: 787px;
+    height: 786px;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    border-radius: 5px;
+}
+
+.column {
+    flex: 1;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-border {
+    background-color: #bbada0;
+    margin: 16px 18px 16px 18px;
+    position: absolute;
+    margin-top: 16px;
+    width: 750px;
+    height: 750px;
+    border-radius: 5px;
+}
+
+.grid-container {
+    margin: 12px 12px 12px 12px;
+    height: 726px;
+    display: flex;
+    flex-direction: column;
+}
+
+#space {
+    background-color: #cdc1b4;
+}
+
+#two {
+    background-color: #eee4da;
+    color: #776e65; 
+}
+
+#two:before {
+    content: "2";
+}
+
+#four {
+    background-color: #ede0c8;
+    color: #776e65; 
+}
+
+#four:before {
+    content: "4";
+}
+
+#eight {
+    background-color: #f2b179;
+    color: #f9f6f2;
+}
+
+#eight:before {
+    content: "8";
+}
+
+#sixteen {
+    background-color: #f59563;
+    color: #f9f6f2;
+}
+
+#sixteen::before {
+    content: "16";
+}
+
+#thirty-two::before {
+    content: "32";
+}
+
+#thirty-two {
+    background-color: #f67c5f;
+    color: #f9f6f2;
+}
+
+#sixty-four {
+    background-color: #f65e3b;
+    color: #f9f6f2;
+}
+
+#sixty-four:before {
+    content: "64";
+}
+
+#one-twenty-eight {
+    background-color: #edcf72;
+    color: #f9f6f2;
+}
+
+#one-twenty-eight:before {
+    content: "128";
+}
+
+#two-fifty-six:before {
+    content: "256";
+}
+
+#two-fifty-six {
+    background-color: #edcc61;
+    color: #f9f6f2;
+}
